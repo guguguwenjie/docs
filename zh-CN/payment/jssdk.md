@@ -81,7 +81,6 @@ $jssdk = $payment->jssdk;
 2. 使用 `$accessToken` 获取配置
 ```php
 $configForPickAddress = $jssdk->shareAddressConfig($token);
-
 // 拿着这个生成好的配置 $configForPickAddress 去订单页（或者直接显示订单页）写 js 调用了
 // ...
 ```
